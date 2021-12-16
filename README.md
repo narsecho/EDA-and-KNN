@@ -13,7 +13,7 @@ EDA
 KNN
 7. Extract 3 tables: LOWmpg, MEDmpg and HIGHmpg with quantile <33%, (33%,66%], and >66%;
 8. For each feature F=F1, ..., F5, display hist.low(F) of F features for all cases in LOWmpg; and also for in HIGHmpg;
-9. compute mean, std of F values for all cases with LOW mpg and with HIGHmpg; compute 90% cnofidence intervals around mean(LOW) and mean(HIGH)
+9. Compute mean, std of F values for all cases with LOW mpg and with HIGHmpg; compute 90% cnofidence intervals around mean(LOW) and mean(HIGH)
 10. Emplement KNN classifier:
     Randomly partition 80%/20% each one of the 3 clalsses; 
     Regroup these three partitions to construct Train and test data set; 
